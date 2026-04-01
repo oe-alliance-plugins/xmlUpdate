@@ -1,0 +1,18 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "xmlupdate...",
+  "description_recipe": "xmlupdate...",
+  "history_source_dir": "xmlUpdate",
+  "internal_package_name": "enigma2-plugin-systemplugins-xmlupdate",
+  "module_dir_name": "xmlUpdate",
+  "output_subdir": "xmlUpdate",
+  "package_name": "enigma2-plugin-systemplugins-xmlupdate",
+  "plugin_src_rel": "xmlUpdate",
+  "python_package": "xmlUpdate",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "xmlUpdate",
+  "rrecommends": "",
+  "rreplaces": ""
+}
