@@ -100,7 +100,7 @@ class xmlUpdate(ConfigListScreen, Screen):
 			print('[xmlUpdate][fetchURL] ERROR:', err)
 		except URLError as err:
 			print('[xmlUpdate][fetchURL] ERROR:', err.reason[0])
-		except:
+		except Exception:
 			import sys
 			print('[xmlUpdate][fetchURL] undefined error', sys.exc_info()[0])
 		self.showError(_("The %s.xml file could not be fetched") % self.DVBtype.value)
