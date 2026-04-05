@@ -3,7 +3,6 @@ from . import _
 
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
-from six import ensure_str
 
 from Components.ActionMap import ActionMap
 from Components.config import ConfigSelection, getConfigListEntry
@@ -14,6 +13,12 @@ from Plugins.Plugin import PluginDescriptor
 from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
 from Screens.Standby import TryQuitMainloop
+
+
+def ensure_str(s):
+	if isinstance(s, bytes):
+		return s.decode("utf-8")
+	return s
 
 
 class xmlUpdate(ConfigListScreen, Screen):
