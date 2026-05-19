@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-30 19:14+0200\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2022-11-05 08:06+0100\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <>\n"
@@ -19,72 +19,87 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 22.08.2\n"
 
+#: ../plugin.py:36
 msgid "/etc/enigma2"
 msgstr "/etc/enigma2"
 
+#: ../plugin.py:36
 msgid "/etc/tuxbox (default)"
 msgstr "/etc/tuxbox (predefinito)"
 
+#: ../plugin.py:50
 msgid "Exit"
 msgstr "Esci"
 
+#: ../plugin.py:51 ../plugin.py:68
 msgid "Fetch"
 msgstr "Recupero"
 
+#: ../plugin.py:87
 #, python-format
 msgid ""
 "Fetching and saving %s.xml succeeded.\n"
 "Restart now for changes to take immediate effect?"
 msgstr ""
-"Recupero e salvataggio di %s.xml riusciti.\nRiavviare ora per rendere"
-" effettive le modifiche?"
+"Recupero e salvataggio di %s.xml riusciti.\n"
+"Riavviare ora per rendere effettive le modifiche?"
 
-msgid ""
-"File being updated, i.e. satellites.xml, cables.xml, or terrestrial.xml."
+#: ../plugin.py:68
+msgid "File being updated, i.e. satellites.xml, cables.xml, or terrestrial.xml."
+msgstr "File in aggiornamento, ad es. satellites.xml, cables.xml o terrestrial.xml."
+
+#: ../plugin.py:69
+msgid "Folder where the downloaded file will be saved. \"/etc/tuxbox\" is the default location. Files stored in \"/etc/enigma2\" override the default file and are not updated on a software update."
+msgstr "Cartella in cui verrà salvato il file scaricato. \"/etc/tuxbox\" è la posizione predefinita. I file archiviati in \"/etc/enigma2\" sovrascrivono il file predefinito e non vengono aggiornati con un aggiornamento software."
+
+#: ../plugin.py:140
+msgid "For updating transponder xml files"
 msgstr ""
-"File in aggiornamento, ad es. satellites.xml, cables.xml o terrestrial.xml."
 
-msgid ""
-"Folder where the downloaded file will be saved. \"/etc/tuxbox\" is the"
-" default location. Files stored in \"/etc/enigma2\" override the default file"
-" and are not updated on a software update."
-msgstr ""
-"Cartella in cui verrà salvato il file scaricato. \"/etc/tuxbox\" è la"
-" posizione predefinita. I file archiviati in \"/etc/enigma2\" sovrascrivono"
-" il file predefinito e non vengono aggiornati con un aggiornamento software."
-
+#: ../plugin.py:34
 msgid "OE-Alliance"
 msgstr "OE-Alliance"
 
+#: ../plugin.py:67
 msgid "Online source where the transponder xml file is being retrieved from."
 msgstr "Fonte online da cui viene recuperato il file xml del transponder."
 
+#: ../plugin.py:69
 msgid "Save to"
 msgstr "Salva in"
 
+#: ../plugin.py:84
 #, python-format
 msgid "Saving the %s.xml file failed"
 msgstr "Salvataggio del file %s.xml non riuscito"
 
+#: ../plugin.py:67
 msgid "Source"
 msgstr "Sorgente"
 
+#: ../plugin.py:90
 #, python-format
 msgid "The %s.xml download was corrupt."
 msgstr "Il download di %s.xml era danneggiato."
 
+#: ../plugin.py:110
 #, python-format
 msgid "The %s.xml file could not be fetched"
 msgstr "Impossibile recuperare il file %s.xml"
 
+#: ../plugin.py:27 ../plugin.py:117 ../plugin.py:121 ../plugin.py:130
+#: ../plugin.py:140
 msgid "XML update"
 msgstr "Aggiornamento XML"
 
+#: ../plugin.py:35
 msgid "cable"
 msgstr "cavo"
 
+#: ../plugin.py:35
 msgid "satellite"
 msgstr "satellite"
 
+#: ../plugin.py:35
 msgid "terrestrial"
 msgstr "terrestre"

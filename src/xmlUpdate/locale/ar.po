@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: XML update\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-16 19:01+0430\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2020-03-06 12:15+0300\n"
 "Last-Translator: mosad - مساعد الجعيد <abo-mishal@hotmail.com>\n"
 "Language-Team: mosad - مساعد الجعيد\n"
@@ -13,18 +13,23 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "X-Generator: Poedit 2.3\n"
 
+#: ../plugin.py:36
 msgid "/etc/enigma2"
 msgstr "/etc/enigma2"
 
+#: ../plugin.py:36
 msgid "/etc/tuxbox (default)"
 msgstr "/etc/tuxbox (إفتراضي)"
 
+#: ../plugin.py:50
 msgid "Exit"
 msgstr "خروج"
 
+#: ../plugin.py:51 ../plugin.py:68
 msgid "Fetch"
 msgstr "إلتقاط"
 
+#: ../plugin.py:87
 #, python-format
 msgid ""
 "Fetching and saving %s.xml succeeded.\n"
@@ -33,46 +38,64 @@ msgstr ""
 "نجح جلب وحفظ %s.xml.\n"
 "أعد التشغيل الآن لتصبح التغييرات سارية المفعول؟"
 
+#: ../plugin.py:68
 msgid "File being updated, i.e. satellites.xml, cables.xml, or terrestrial.xml."
 msgstr "يتم تحديث الملف، مثال satellites.xml أو cables.xml أو earth.xml."
 
+#: ../plugin.py:69
 msgid "Folder where the downloaded file will be saved. \"/etc/tuxbox\" is the default location. Files stored in \"/etc/enigma2\" override the default file and are not updated on a software update."
 msgstr ""
 "مجلد حيث سيتم حفظ الملف الذي تم تنزيله. \"/ etc / tuxbox\" هو الموقع الافتراضي. الملفات المخزنة في\n"
 "\"/ etc / enigma2\" تتجاوز الملف الافتراضي ولا يتم تحديثها عند تحديث البرنامج."
 
+#: ../plugin.py:140
+msgid "For updating transponder xml files"
+msgstr ""
+
+#: ../plugin.py:34
 msgid "OE-Alliance"
 msgstr "صور مفتوحة المصدر"
 
+#: ../plugin.py:67
 msgid "Online source where the transponder xml file is being retrieved from."
 msgstr "مصدر أونلاين حيث سيتم استرداد ملف معلومات الترددات المرسل من."
 
+#: ../plugin.py:69
 msgid "Save to"
 msgstr "حفظ إلى"
 
+#: ../plugin.py:84
 #, python-format
 msgid "Saving the %s.xml file failed"
 msgstr "فشل حفظ ملف %s.xml"
 
+#: ../plugin.py:67
 msgid "Source"
 msgstr "المصدر"
 
+#: ../plugin.py:90
 #, python-format
 msgid "The %s.xml download was corrupt."
 msgstr "تحميل %s.xml تألف."
 
+#: ../plugin.py:110
 #, python-format
 msgid "The %s.xml file could not be fetched"
 msgstr "لا يمكن جلب ملف %s.xml"
 
+#: ../plugin.py:27 ../plugin.py:117 ../plugin.py:121 ../plugin.py:130
+#: ../plugin.py:140
 msgid "XML update"
 msgstr "تحديث ملف معلومات الترددات"
 
+#: ../plugin.py:35
 msgid "cable"
 msgstr "كيبل"
 
+#: ../plugin.py:35
 msgid "satellite"
 msgstr "قمر صناعي"
 
+#: ../plugin.py:35
 msgid "terrestrial"
 msgstr "بث أرضي"

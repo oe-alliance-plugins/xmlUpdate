@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-17 12:06+0000\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2024-12-22 12:09+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,18 +18,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.5\n"
 
+#: ../plugin.py:36
 msgid "/etc/enigma2"
 msgstr "/etc/enigma2"
 
+#: ../plugin.py:36
 msgid "/etc/tuxbox (default)"
 msgstr "/etc/tuxbox (defecto)"
 
+#: ../plugin.py:50
 msgid "Exit"
 msgstr "Salir"
 
+#: ../plugin.py:51 ../plugin.py:68
 msgid "Fetch"
 msgstr "Descargar"
 
+#: ../plugin.py:87
 #, python-format
 msgid ""
 "Fetching and saving %s.xml succeeded.\n"
@@ -38,47 +43,62 @@ msgstr ""
 "La descarga y el guardado de %s.xml se realizaron correctamente.\n"
 "¿Reiniciar ahora para que los cambios surtan efecto de inmediato?"
 
+#: ../plugin.py:68
 msgid "File being updated, i.e. satellites.xml, cables.xml, or terrestrial.xml."
 msgstr "Archivo que se está actualizando, es decir, satellites.xml, cables.xml o terrestrial.xml."
 
+#: ../plugin.py:69
 msgid "Folder where the downloaded file will be saved. \"/etc/tuxbox\" is the default location. Files stored in \"/etc/enigma2\" override the default file and are not updated on a software update."
 msgstr "Carpeta donde se guardará el archivo descargado. \"/etc/tuxbox\" es la ubicación predeterminada. Los archivos almacenados en \"/etc/enigma2\" tienen prioridad sobre el archivo predeterminado y no se actualizan con una actualización de software."
 
+#: ../plugin.py:140
 msgid "For updating transponder xml files"
 msgstr "Para actualizar los archivos xml del transpondedor"
 
+#: ../plugin.py:34
 msgid "OE-Alliance"
 msgstr "OE-Alliance"
 
+#: ../plugin.py:67
 msgid "Online source where the transponder xml file is being retrieved from."
 msgstr "Fuente desde donde se descarga el archivo xml del transpondedor."
 
+#: ../plugin.py:69
 msgid "Save to"
 msgstr "Guardar en"
 
+#: ../plugin.py:84
 #, python-format
 msgid "Saving the %s.xml file failed"
 msgstr "Error al guardar el archivo %s.xml"
 
+#: ../plugin.py:67
 msgid "Source"
 msgstr "Fuente"
 
+#: ../plugin.py:90
 #, python-format
 msgid "The %s.xml download was corrupt."
 msgstr "El %s.xml descargado estaba dañado."
 
+#: ../plugin.py:110
 #, python-format
 msgid "The %s.xml file could not be fetched"
 msgstr "No se pudo descargar el archivo %s.xml"
 
+#: ../plugin.py:27 ../plugin.py:117 ../plugin.py:121 ../plugin.py:130
+#: ../plugin.py:140
 msgid "XML update"
 msgstr "Actualización de XML"
 
+#: ../plugin.py:35
 msgid "cable"
 msgstr "cable"
 
+#: ../plugin.py:35
 msgid "satellite"
 msgstr "satellite"
 
+#: ../plugin.py:35
 msgid "terrestrial"
 msgstr "terrestrial"

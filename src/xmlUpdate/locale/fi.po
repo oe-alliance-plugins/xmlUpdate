@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plugins 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-16 19:01+0430\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2024-08-01 18:47+0300\n"
 "Last-Translator: Orlandox <http://www.huoltovalikko.com/>\n"
 "Language-Team: Tomppaa, Orlandox\n"
@@ -18,18 +18,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.4.4\n"
 
+#: ../plugin.py:36
 msgid "/etc/enigma2"
 msgstr "/etc/enigma2"
 
+#: ../plugin.py:36
 msgid "/etc/tuxbox (default)"
 msgstr "/etc/tuxbox (oletus)"
 
+#: ../plugin.py:50
 msgid "Exit"
 msgstr "Poistu"
 
+#: ../plugin.py:51 ../plugin.py:68
 msgid "Fetch"
 msgstr "Hae"
 
+#: ../plugin.py:87
 #, python-format
 msgid ""
 "Fetching and saving %s.xml succeeded.\n"
@@ -38,47 +43,62 @@ msgstr ""
 "Noutaminen ja tallentaminen %s.xml onnistuivat.\n"
 "Käynnistettäänkö uudelleen nyt, jotta muutokset tulevat voimaan?"
 
+#: ../plugin.py:68
 msgid "File being updated, i.e. satellites.xml, cables.xml, or terrestrial.xml."
 msgstr "Päivitettävä tiedosto eli satellites.xml, cables.xml, tai terrestrial.xml."
 
+#: ../plugin.py:69
 msgid "Folder where the downloaded file will be saved. \"/etc/tuxbox\" is the default location. Files stored in \"/etc/enigma2\" override the default file and are not updated on a software update."
 msgstr "Kansio, johon ladattu tiedosto tallennetaan. \"/etc/tuxbox\" on oletussijainti. \"/etc/enigma2\" kansioon tallennetut tiedostot ohittavat oletus tiedoston, eikä niitä päivitetä ohjelmistopäivityksessä."
 
+#: ../plugin.py:140
+msgid "For updating transponder xml files"
+msgstr "Transponderin xml-tiedostojen päivittämiseen"
+
+#: ../plugin.py:34
 msgid "OE-Alliance"
 msgstr "OE-Alliance"
 
+#: ../plugin.py:67
 msgid "Online source where the transponder xml file is being retrieved from."
 msgstr "Online lähde, josta haetaan transponderi xml-tiedosto."
 
+#: ../plugin.py:69
 msgid "Save to"
 msgstr "Tallenna nimellä"
 
+#: ../plugin.py:84
 #, python-format
 msgid "Saving the %s.xml file failed"
 msgstr "%s.xml tiedoston tallentaminen epäonnistui"
 
+#: ../plugin.py:67
 msgid "Source"
 msgstr "Lähde"
 
+#: ../plugin.py:90
 #, python-format
 msgid "The %s.xml download was corrupt."
 msgstr "%s.xml lataus oli vioittunut."
 
+#: ../plugin.py:110
 #, python-format
 msgid "The %s.xml file could not be fetched"
 msgstr "Tiedostoa %s.xml ei voitu noutaa"
 
+#: ../plugin.py:27 ../plugin.py:117 ../plugin.py:121 ../plugin.py:130
+#: ../plugin.py:140
 msgid "XML update"
 msgstr "XML päivitys"
 
+#: ../plugin.py:35
 msgid "cable"
 msgstr "Kaapeli"
 
+#: ../plugin.py:35
 msgid "satellite"
 msgstr "Satelliitti"
 
+#: ../plugin.py:35
 msgid "terrestrial"
 msgstr "Antenni"
-
-msgid "For updating transponder xml files"
-msgstr "Transponderin xml-tiedostojen päivittämiseen"

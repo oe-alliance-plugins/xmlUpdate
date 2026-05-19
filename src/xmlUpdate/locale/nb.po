@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-30 19:14+0200\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2018-04-10 11:56+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,62 +17,85 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../plugin.py:36
 msgid "/etc/enigma2"
 msgstr ""
 
+#: ../plugin.py:36
 msgid "/etc/tuxbox (default)"
 msgstr ""
 
+#: ../plugin.py:50
 msgid "Exit"
 msgstr ""
 
+#: ../plugin.py:51 ../plugin.py:68
 msgid "Fetch"
 msgstr ""
 
+#: ../plugin.py:87
 #, python-format
 msgid ""
 "Fetching and saving %s.xml succeeded.\n"
 "Restart now for changes to take immediate effect?"
 msgstr ""
 
+#: ../plugin.py:68
 msgid "File being updated, i.e. satellites.xml, cables.xml, or terrestrial.xml."
 msgstr ""
 
+#: ../plugin.py:69
 msgid "Folder where the downloaded file will be saved. \"/etc/tuxbox\" is the default location. Files stored in \"/etc/enigma2\" override the default file and are not updated on a software update."
 msgstr ""
 
+#: ../plugin.py:140
+msgid "For updating transponder xml files"
+msgstr ""
+
+#: ../plugin.py:34
 msgid "OE-Alliance"
 msgstr ""
 
+#: ../plugin.py:67
 msgid "Online source where the transponder xml file is being retrieved from."
 msgstr ""
 
+#: ../plugin.py:69
 msgid "Save to"
 msgstr ""
 
+#: ../plugin.py:84
 #, python-format
 msgid "Saving the %s.xml file failed"
 msgstr ""
 
+#: ../plugin.py:67
 msgid "Source"
 msgstr ""
 
+#: ../plugin.py:90
 #, python-format
 msgid "The %s.xml download was corrupt."
 msgstr ""
 
+#: ../plugin.py:110
 #, python-format
 msgid "The %s.xml file could not be fetched"
 msgstr ""
 
+#: ../plugin.py:27 ../plugin.py:117 ../plugin.py:121 ../plugin.py:130
+#: ../plugin.py:140
 msgid "XML update"
 msgstr ""
 
+#: ../plugin.py:35
 msgid "cable"
 msgstr ""
 
+#: ../plugin.py:35
 msgid "satellite"
 msgstr ""
 
+#: ../plugin.py:35
 msgid "terrestrial"
 msgstr ""
