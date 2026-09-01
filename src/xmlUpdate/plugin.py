@@ -30,8 +30,11 @@ class xmlUpdate(ConfigListScreen, Screen):
 		self.session = session
 		ConfigListScreen.__init__(self, [], session=session)
 
-		self.url = "https://raw.githubusercontent.com/oe-alliance/oe-alliance-tuxbox-common/master/src/%s.xml"
-		self.source = ConfigSelection(default="OE-Alliance", choices=[("OE-Alliance", _("OE-Alliance"))])
+		self.urls = {
+			"oe-alliance": "https://raw.githubusercontent.com/oe-alliance/oe-alliance-tuxbox-common/master/src/%s.xml",
+			"openpli": "https://raw.githubusercontent.com/OpenPLi/tuxbox-xml/master/xml/%s.xml",
+		}
+		self.source = ConfigSelection(default="oe-alliance", choices=[("oe-alliance", _("OE-Alliance")), ("openpli", _("OpenPLi"))])
 		self.DVBtype = ConfigSelection(default="satellites", choices=[("satellites", _("satellite")), ("cables", _("cable")), ("terrestrial", _("terrestrial"))])
 		self.folder = ConfigSelection(default="/etc/tuxbox", choices=[("/etc/tuxbox", _("/etc/tuxbox (default)")), ("/etc/enigma2", _("/etc/enigma2"))])
 
@@ -94,8 +97,8 @@ class xmlUpdate(ConfigListScreen, Screen):
 
 	def fetchURL(self):
 		try:
-			print('[xmlUpdate][fetchURL] URL', self.url % self.DVBtype.value)
-			req = Request(self.url % self.DVBtype.value)
+			print('[xmlUpdate][fetchURL] URL', self.urls[self.source.value] % self.DVBtype.value)
+			req = Request(self.urls[self.source.value] % self.DVBtype.value)
 			response = urlopen(req)
 			print('[xmlUpdate][fetchURL] Response: %d' % response.getcode())
 			if int(response.getcode()) == 200:
